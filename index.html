@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleForma+.css">
+    <title>Wejden Forma+</title>
+</head>
+<body>
+    
+    <header>
+        <h1>
+            <div class="item">F</div>
+            <div class="item">O</div>
+            <div class="item">R</div>
+            <div class="item">M</div>
+            <div class="item">A</div>
+            <div class="item">+</div>
+        </h1>
+    </header>
+    <section>
+        <header>
+            <h3>Espace client</h3>
+        </header>
+    <form action="" id="f1">
+        <div>
+            <input type="email" placeholder="Saisir votre email" required>
+            <input type="password"placeholder="Saisir votre mot de passe" required>
+            <input type="submit" value="Connexion">
+        </div>
+    </form>
+    </section>
+    <hr>
+    <section id="sec2">
+        <header><h2>Créer un compte c'est gratuit</h2></header>
+        <form action="" method="post">
+            <div>
+                <label for="" class="lab1">Civilité: </label>
+                <label for="" class="lab2"><input type="radio" name="genre">Mlle</label>
+                <label for="" class="lab2"><input type="radio" name="genre">Mme</label>
+                <label for="" class="lab2"><input type="radio" name="genre">Mr</label>
+            </div>
+            <div><label for="nom" class="lab1">Nom:</label><input type="text" id="nom"></div>
+            <div><label for="pre" class="lab1">Prénom :</label><input type="text"id="pre"></div>
+            <div><label for="dt" class="lab1">Date de naissance :</label><input type="date"id="dt"></div>
+            <div><label for="email" class="lab1">Adresse email :</label><input type="email"id="email"></div>
+            <div><label for="tel" class="lab1">téléphone :</label><input type="tel" id="tel"></div>
+            <div><label for="" class="lab1">Module de formation :</label>
+                <select name="" id="">
+                    <option value="">--Choisir un module--</option>
+                    <option value="">programmation</option>
+                    <option value="">Réseau Informatique</option>
+                    <option value="">Système d'exploitation</option>
+                </select>
+                                               
+            </div>
+            <div><label for="" class="lab1">langage de programmation connues :</label>
+                <input list="lg">
+                <datalist id="lg">
+                    <option value="Python">
+                    <option value="Pascal">
+                    <option value="C#">
+                </datalist>
+                        
+            </div>
+            <div><label for="" class="lab1">Niveau de maitrise de ces langages :</label>
+                <input type="range"></div>
+            <div><input type="submit" value="valider"><input type="reset" value="Annuler"></div>
+        </form>
+
+    </section>
+</body>
+</html>
